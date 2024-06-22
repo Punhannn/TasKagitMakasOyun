@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.hlar{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    margin-block: 100px;
+}
+.umumi{
+    display: flex;
+}
+.sol{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 120px;
+}
+.sag{
+    display: flex;
+    width: 50%;
+    height: 120px;
+    justify-content: center ;
+}
+.rock,.scissors,.paper,.compChoice{
+    height: inherit;
+    width: 100px;
+    background-size: 100% 100%;
+}
+.rock{
+    background-image: url(./rock.png);
+}
+.scissors{
+    background-image: url(./images.jpeg);
+}
+.paper{
+    background-image: url(./paper.png);
+}
